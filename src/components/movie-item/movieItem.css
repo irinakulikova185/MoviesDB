@@ -1,0 +1,43 @@
+.movieCard {
+  width: 100%;
+}
+.movieCard_img {
+  height: 270px;
+  object-fit: cover;
+}
+
+.movieCard:hover {
+  transform: scale(1.03);
+}
+
+.detailsLink a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.bookmark {
+  font-size: 20px;
+}
+
+.bookmark:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

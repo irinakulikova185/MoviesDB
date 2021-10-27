@@ -1,0 +1,65 @@
+.header {
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: #25292c;
+  color: #fafafa;
+  box-shadow: 1px 1px 10px #080808;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+.logo:hover {
+  color: #61bbfb;
+  text-decoration: none;
+}
+.logoImage:hover {
+  transform: rotateY(180deg);
+}
+
+.item {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 24px;
+}
+
+.selected {
+  color: #61bbfb;
+}
+
+.item:hover {
+  color: white;
+  text-decoration: none;
+  color: #61bbfb;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.accountTabs {
+  position: absolute;
+  right: 40px;
+  display: flex;
+  align-items: baseline;
+}
+
+.profileContainer {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}

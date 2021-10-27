@@ -1,0 +1,14 @@
+.wrapper {
+  position: relative;
+}
+
+.add-favourite {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-item {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
